@@ -36,13 +36,13 @@ int main() {
   // parte 2
   // Calcular a Densidade Populacional: Divida a população da cidade pela sua área.
 
-  float DensidadeP = (float) populacao/area;
+  float DensidadeP1 = (float) populacao/area;
 
   // Calcular o PIB per Capita: Divida o PIB da cidade pela sua população.
 
-  float pibPerCapita = (float) pib/populacao;
+  float pibPerCapita1 = (float) pib/populacao;
   
-  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
+  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP1,pibPerCapita1);
       //carta 2
 
   // Área para entrada de dados
@@ -71,12 +71,24 @@ int main() {
   // parte 2
   // Calcular a Densidade Populacional: Divida a população da cidade pela sua área.
 
-DensidadeP = (float) populacao/area;
+float DensidadeP2 = (float) populacao/area;
 
   // Calcular o PIB per Capita: Divida o PIB da cidade pela sua população.
 
-pibPerCapita = (float) pib/populacao;
+float pibPerCapita2 = (float) pib/populacao;
   
-  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
+  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP2,pibPerCapita2);
+
+  //usando o vscode local
+
+  //comparando Densiddade Populacional
+
+  if (DensidadeP1 < DensidadeP2)
+    printf("carta 1 venceu\n");
+    else
+      if (DensidadeP2 < DensidadeP1)
+        printf("carta 2 venceu");
+      else
+        printf("carta 1 e 2 empataram");
 return 0;
 } 
