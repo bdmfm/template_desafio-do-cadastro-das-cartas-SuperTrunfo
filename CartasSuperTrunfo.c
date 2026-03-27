@@ -42,7 +42,7 @@ int main() {
 
   float pibPerCapita = (float) pib/populacao;
   
-  print("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
+  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
       //carta 2
 
   // Área para entrada de dados
@@ -71,12 +71,12 @@ int main() {
   // parte 2
   // Calcular a Densidade Populacional: Divida a população da cidade pela sua área.
 
-  float DensidadeP = (float) populacao/area;
+DensidadeP = (float) populacao/area;
 
   // Calcular o PIB per Capita: Divida o PIB da cidade pela sua população.
 
-  float pibPerCapita = (float) pib/populacao;
+pibPerCapita = (float) pib/populacao;
   
-  print("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
+  printf(f"Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
 return 0;
 } 
