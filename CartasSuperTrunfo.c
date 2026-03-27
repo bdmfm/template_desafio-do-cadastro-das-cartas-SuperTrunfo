@@ -77,6 +77,6 @@ DensidadeP = (float) populacao/area;
 
 pibPerCapita = (float) pib/populacao;
   
-  printf(f"Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
+  printf("Para a Cidade %s temos a Densidade Populacional = %f e PIB Per Capita = %f\n",cidade,DensidadeP,pibPerCapita);
 return 0;
 } 
